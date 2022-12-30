@@ -549,7 +549,6 @@ aside button:hover {
 .road_map .map .card {
     width: 355px;
     height: 50px;
-    border: 1px solid #fff;
     display: flex;
     align-items: center;
 }
@@ -629,3 +628,172 @@ aside button:hover {
     background: #3f3f7d;
 }
 
+.man {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: url(/assets/images/Man_bg.png) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.man .man_img,
+.man_content {
+    width: 32%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.man .man_content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.man .man_content h1 {
+    position: relative;
+    font-size: 25px;
+    line-height: 40px;
+    color: var(--color-1);
+    margin-top: 50px;
+    text-align: right;
+}
+
+.man .man_content p {
+    margin-top: 60px;
+    font-size: 12px;
+    color: var(--color-2);
+    text-align: right;
+}
+
+.man .man_content .client_cole {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.man .man_content .client_cole .cont {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: var(--color-1);
+}
+
+.man .man_content .client_cole .cont .bi {
+    font-size: 11px;
+    margin-left: 2px;
+    color: #ae2c86;
+}
+
+.man .man_content .client_cole .cont h4 {
+    font-size: 17px;
+    text-align: right;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+.man .man_content .client_cole .cont p {
+    font-size: 11px;
+    text-align: right;
+    margin-top: 0;
+    font-weight: 700;
+    color: var(--color-6);
+}
+
+.man .man_content .client_cole .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.man .man_content .client_cole .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.news {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background: var(--color-5);
+}
+
+.news h1 {
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    color: var(--color-1);
+    padding-top: 40px;
+}
+
+.news h1::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3.5px;
+    background: var(--color-6);
+    bottom: -20px;
+    margin-left: 100px;
+}
+
+.news .cards {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.news .cards .card {
+    width: 350px;
+    height: 350px;
+    background: #28284e;
+    border-radius: 15px;
+    color: var(--color-1);
+    padding: 40px;
+    box-shadow: 0px 30px 25px -25px rgba(0, 183, 197, 0.5);
+}
+
+.news .cards .card h6 {
+    color: var(--color-7);
+}
+
+.news .cards .card h2 {
+    font-size: 18px;
+}
+
+.news .cards .card p {
+    font-size: 13px;
+    margin: 20px 0;
+    line-height: 25px;
+    color: var(--color-2);
+}
+
+.news .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.news .btn button {
+    padding: 12px 25px;
+    background: linear-gradient(0deg, #ae2c86, #d0498d );
+    border-radius: 30px;
+    color: var(--color-1);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: .3s linear;
+}
+
+.news .btn button:hover {
+    background: linear-gradient(0deg, #d0498d, #ae2c86);
+}
